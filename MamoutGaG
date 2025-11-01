@@ -1,3 +1,5 @@
+setfpscap(3)
+
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant", "Jungle Egg" },
@@ -127,5 +129,3 @@ getgenv().gagConfig = {
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
-
-https://discord.com/api/webhooks/1401083623142064160/hO8--Y6wgTjUnD0mE-ZUyvJ2bZHQnKzc5uUNwOtw8_2ZXz7Uw19kUFhev2u6ServAVkW
