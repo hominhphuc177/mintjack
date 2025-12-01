@@ -33,7 +33,7 @@ getgenv().gagConfig = {
 			["Messenger Pigeon"] = 5,
 			["Camel"] = 5,
 			["Bearded Dragon"] = 8,
-			"Sheckling"
+			"Sheckling",
 			"Chimera",
 			"Goblin Miner",
 			"Ruby Squid",
