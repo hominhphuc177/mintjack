@@ -1,10 +1,10 @@
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Gem Egg" },
+    BUY_EVENT_SHOP = { "Gem Egg", "Santa's Surprise Present", "Christmas Present", "Christmas Crate", "Holiday Crate" },
     PLANT_EVENT_TREES = true,
 	
-    MAX_PLANTS = 300,
-    DESTROY_UNTIL_MIN_PLANTS = 250,
+    MAX_PLANTS = 500,
+    DESTROY_UNTIL_MIN_PLANTS = 450,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -30,10 +30,14 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = {
+			"Christmas Gorilla",
+			"Krampus",
+			"Arctic Fox",
+			"French Hen",
+			"Frost Dragon",
 			["Messenger Pigeon"] = 5,
 			["Camel"] = 5,
-			["Bearded Dragon"] = 8,
-			"Sheckling",
+			"Bearded Dragon",
 			"Chimera",
 			"Goblin Miner",
 			"Ruby Squid",
@@ -89,8 +93,8 @@ getgenv().gagConfig = {
 
 	-- test
 	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
-	MAX_REBIRTH_SHECKLES = 1_000_000_000,
-	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade", "Pet Inventory Capacity Upgrade"},
+	MAX_REBIRTH_SHECKLES = 1_000_000_000_000_000,
+	BUY_ASCEND_SHOP = { "Egg Capacity Upgrade" },
 
     
     EQUIP_PETS = {
@@ -109,14 +113,19 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+			"Christmas Gorilla",
+			"Krampus",
+			"Arctic Fox",
+			"French Hen",
+			"Frost Dragon",
 			"Ruby Squid",
 			"Tiger",
 			"Queen Bee",
 			"Mimic Octopus",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
-    DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "Mj",
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "GH",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
