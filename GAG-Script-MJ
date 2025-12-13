@@ -1,6 +1,6 @@
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Gem Egg", "Santa's Surprise Present", "Christmas Present", "Christmas Crate", "Holiday Crate" },
+    BUY_EVENT_SHOP = { "Christmas Egg", "Gem Egg", "Santa's Surprise Present", "Christmas Present", "Christmas Crate", "Holiday Crate" },
 	OPEN_ALL_PRESENT = true,
 	
     MAX_PLANTS = 200,
@@ -21,8 +21,8 @@ getgenv().gagConfig = {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
-    BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg" },
-    PLANT_EGGS = { "Gem Egg", "Paradise Egg", "Spooky Egg", "Jungle Egg", "Safari Egg" },
+    BUY_EGGS = { "Christmas Egg", "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg" },
+    PLANT_EGGS = { "Christmas Egg" },
     
     BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 	
@@ -30,14 +30,14 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = {
-			["Christmas Gorilla"] = 8,
-			"Mistletoad",
+			"Nutcracker",
+			"Yeti",
+			"Ice Golem",
+			["Christmas Gorilla"] = 5,
+			["Mistletoad"] = 5,
 			"Krampus",
 			"Arctic Fox",
-			["French Hen"] = 5,
 			"Frost Dragon",
-			["Messenger Pigeon"] = 5,
-			["Camel"] = 5,
 			["Bearded Dragon"] = 8,
 			"Chimera",
 			"Goblin Miner",
@@ -114,10 +114,10 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-			"Christmas Gorilla",
+			"Ice Golem",
+			"Yeti",
 			"Krampus",
 			"Arctic Fox",
-			"French Hen",
 			"Frost Dragon",
 			"Ruby Squid",
 			"Tiger",
